@@ -41,7 +41,7 @@ app.frame('/', (c) => {
           }}
         >
           {status === 'response'
-            ? `You are fid ${fid}. Verified: ${verified}`
+            ? `You are fid ${fid}. I did not make a round-trip to a Hub to verify you`
             : 'I (will) know who you are'}
         </div>
       </div>
