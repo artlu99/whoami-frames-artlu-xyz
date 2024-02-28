@@ -1,0 +1,17 @@
+{
+  "name": "whoami",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "frog dev",
+    "wrangler:dev": "wrangler dev src/index.tsx",
+    "wrangler:deploy": "wrangler deploy --minify src/index.tsx"
+  },
+  "dependencies": {
+    "frog": "main",
+    "hono": "^4"
+  },
+  "devDependencies": {
+    "wrangler": "latest"
+  }
+}
